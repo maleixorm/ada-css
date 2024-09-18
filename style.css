@@ -54,3 +54,21 @@ a:visited {
 a:hover {
     text-decoration: underline;
 }
+
+table, td, th {
+    border: 1px solid #000;
+}
+
+table {
+    font-size: 2.4rem;
+    border-collapse: separate;
+}
+
+table tr:first-child {
+    background-color: #4682b4;
+    color: #fff;
+}
+
+table tr:nth-child(2n + 3) {
+    background-color: #c3c3c3;
+}
