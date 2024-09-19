@@ -72,3 +72,16 @@ table tr:first-child {
 table tr:nth-child(2n + 3) {
     background-color: #c3c3c3;
 }
+
+ul, ol {
+    font-size: 2.4rem;
+    padding-left: 4.2rem;
+}
+
+ul {
+    list-style: disc;
+}
+
+ol {
+    list-style: upper-roman;
+}
