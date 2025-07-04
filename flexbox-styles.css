@@ -42,15 +42,14 @@ p {
     /* height: calc(100vh - (7 * 2rem)); */
     height: calc(100vh);
     position: relative;
-
     display: flex;
     /* flex-direction: row;
     flex-wrap: wrap; */
     flex-flow: row wrap;
     justify-content: flex-start;
-    /* align-items: center; */
+    align-items: center;
     align-content: center;
-    gap: 2rem 5rem;
+    gap: 2rem 4rem;
 }
 
 .box {
@@ -65,7 +64,6 @@ p {
     order: 10;
     /* flex-basis: calc(50% - 5rem); */
     flex: 1;
-
     /* text-align: center; */
     display: flex;
     gap: 0 2rem;
